@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+<title>
+ModSkurt - Bayesian Predictive Prior
+</title>
+
+<style>
+.parameterBox {
+  border: solid;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.parameterBox > h2 {
+  text-align: center;
+}
+
+.parameters {
+  display: flex;
+  flex-wrap: wrap;
+}
+</style>
+</head>
+<body>
+<h1>
+ModSkurt - Bayesian Predictive Prior
+</h1>
+
+<div id="observablehq-chart-b5f9f0d3"></div>
+
+<div class="parameters">
+
+<div class="parameterBox">
+<h2>
+H
+</h2>
+<div id="observablehq-chart_H_node-b5f9f0d3"></div>
+<div id="observablehq-viewof-mu_H-b5f9f0d3"></div>
+<div id="observablehq-viewof-sigma_H-b5f9f0d3"></div>
+</div>
+
+<div class="parameterBox">
+<h2>
+m
+</h2>
+<div id="observablehq-chart_m_node-b5f9f0d3"></div>
+<div id="observablehq-viewof-mu_m-b5f9f0d3"></div>
+<div id="observablehq-viewof-sigma_m-b5f9f0d3"></div>
+</div>
+
+<div class="parameterBox">
+<h2>
+s
+</h2>
+<div id="observablehq-chart_s_node-b5f9f0d3"></div>
+<div id="observablehq-viewof-mu_s-b5f9f0d3"></div>
+<div id="observablehq-viewof-sigma_s-b5f9f0d3"></div>
+</div>
+
+<div class="parameterBox">
+<h2>
+r
+</h2>
+<div id="observablehq-chart_r_node-b5f9f0d3"></div>
+<div id="observablehq-viewof-mu_r-b5f9f0d3"></div>
+<div id="observablehq-viewof-sigma_r-b5f9f0d3"></div>
+</div>
+
+<div class="parameterBox">
+<h2>
+d
+</h2>
+<div id="observablehq-chart_d_node-b5f9f0d3"></div>
+<div id="observablehq-viewof-mu_d-b5f9f0d3"></div>
+<div id="observablehq-viewof-sigma_d-b5f9f0d3"></div>
+</div>
+
+<div class="parameterBox">
+<h2>
+p
+</h2>
+<div id="observablehq-chart_p_node-b5f9f0d3"></div>
+<div id="observablehq-viewof-mu_p-b5f9f0d3"></div>
+<div id="observablehq-viewof-sigma_p-b5f9f0d3"></div>
+</div>
+
+</div>
+
+<p>Credit: <a href="https://observablehq.com/@andrew-primer-e/bayesian-prior-predictive-distribution">Bayesian Prior Predictive Distribution by andrew-primer-e</a></p>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/a97f986d913f5331.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-b5f9f0d3"));
+  if (name === "chart_H_node") return new Inspector(document.querySelector("#observablehq-chart_H_node-b5f9f0d3"));
+  if (name === "viewof mu_H") return new Inspector(document.querySelector("#observablehq-viewof-mu_H-b5f9f0d3"));
+  if (name === "viewof sigma_H") return new Inspector(document.querySelector("#observablehq-viewof-sigma_H-b5f9f0d3"));
+  if (name === "chart_m_node") return new Inspector(document.querySelector("#observablehq-chart_m_node-b5f9f0d3"));
+  if (name === "viewof mu_m") return new Inspector(document.querySelector("#observablehq-viewof-mu_m-b5f9f0d3"));
+  if (name === "viewof sigma_m") return new Inspector(document.querySelector("#observablehq-viewof-sigma_m-b5f9f0d3"));
+  if (name === "chart_s_node") return new Inspector(document.querySelector("#observablehq-chart_s_node-b5f9f0d3"));
+  if (name === "viewof mu_s") return new Inspector(document.querySelector("#observablehq-viewof-mu_s-b5f9f0d3"));
+  if (name === "viewof sigma_s") return new Inspector(document.querySelector("#observablehq-viewof-sigma_s-b5f9f0d3"));
+  if (name === "chart_r_node") return new Inspector(document.querySelector("#observablehq-chart_r_node-b5f9f0d3"));
+  if (name === "viewof mu_r") return new Inspector(document.querySelector("#observablehq-viewof-mu_r-b5f9f0d3"));
+  if (name === "viewof sigma_r") return new Inspector(document.querySelector("#observablehq-viewof-sigma_r-b5f9f0d3"));
+  if (name === "chart_d_node") return new Inspector(document.querySelector("#observablehq-chart_d_node-b5f9f0d3"));
+  if (name === "viewof mu_d") return new Inspector(document.querySelector("#observablehq-viewof-mu_d-b5f9f0d3"));
+  if (name === "viewof sigma_d") return new Inspector(document.querySelector("#observablehq-viewof-sigma_d-b5f9f0d3"));
+  if (name === "chart_p_node") return new Inspector(document.querySelector("#observablehq-chart_p_node-b5f9f0d3"));
+  if (name === "viewof mu_p") return new Inspector(document.querySelector("#observablehq-viewof-mu_p-b5f9f0d3"));
+  if (name === "viewof sigma_p") return new Inspector(document.querySelector("#observablehq-viewof-sigma_p-b5f9f0d3"));
+  return ["parameters","data","hover","line","yExtent","yScale"].includes(name);
+});
+</script>
+</body>
+</html>

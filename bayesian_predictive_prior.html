@@ -16,7 +16,7 @@ ModSkurt - Bayesian Predictive Prior
 
 </head>
 
-<body>
+<body style="">
 
 <header>
 <div class="bg-dark text-white px-3 py-2 fs-3">
@@ -35,7 +35,7 @@ ModSkurt - Bayesian Predictive Prior
 Typical Curves
 </h4>
 
-<div id="observablehq-chart-b5f9f0d3"></div>
+<div class="border" id="observablehq-chart-b5f9f0d3"></div>
 
 </div>
 
@@ -66,7 +66,7 @@ Parameter Priors
   </li>
 </ul>
 
-<div class="tab-content border-start border-end border-bottom d-flex justify-content-center" id="myTabContent">
+<div class="tab-content border-start border-end border-bottom d-flex justify-content-center p-3" id="myTabContent">
 
   <div class="tab-pane fade show active" id="H" role="tabpanel" aria-labelledby="home-tab">
 	<div id="observablehq-chart_H_node-b5f9f0d3"></div>
@@ -109,9 +109,22 @@ Parameter Priors
 
 </div>
 
+<div class="row">
+<h4>
+Details
+</h4>
+<div class="border">
+The first plot contains 100 ModSkurt curves. 
+The parameters for each of the curves are independently sampled from a prior distribution.
+The second plot shows the prior distribution for a given parameter.
+You can choose which parameter is shown by clicking on its tab just above the plot.
+The hyper-parameters that specify the prior distribution can be altered by moving the sliders below the second plot.
+</div>
 </div>
 
-<footer class="fixed-bottom">
+</div>
+
+<footer>
 <div class="bg-dark text-white px-3 py-2">
 <span>
 Credit: <a href="https://observablehq.com/@andrew-primer-e/bayesian-prior-predictive-distribution">Bayesian Prior Predictive Distribution by andrew-primer-e</a>
